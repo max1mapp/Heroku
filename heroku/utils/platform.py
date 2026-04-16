@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 IS_DOCKER = "DOCKER" in os.environ
 IS_LAVHOST = "LAVHOST" in os.environ
-IS_HIKKAHOST = "HIKKAHOST" in os.environ
+IS_MAX1MHOST = "MAX1MHOST" in os.environ
 IS_MACOS = "com.apple" in os.environ.get("PATH", "")
 IS_USERLAND = "userland" in os.environ.get("USER", "")
 IS_JAMHOST = "JAMHOST" in os.environ
