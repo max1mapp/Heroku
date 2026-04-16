@@ -56,8 +56,8 @@ def get_named_platform() -> str:
             return "JamHost"
         case _ if IS_USERLAND:
             return "UserLand"
-        case _ if IS_HIKKAHOST:
-            return "HikkaHost"
+        case _ if IS_MAX1MHOST:
+            return "Max1mHost"
         case _ if IS_DOCKER:
             return "Docker"
         case _ if IS_LAVHOST:
@@ -94,7 +94,7 @@ def get_named_platform_emoji() -> str:
             return "🧃 "
         case _ if IS_USERLAND:
             return "🐧 "
-        case _ if IS_HIKKAHOST:
+        case _ if IS_MAX1MHOST:
             return "🌼 "
         case _ if IS_DOCKER:
             return "🐳 "
@@ -120,7 +120,7 @@ def get_platform_emoji() -> str:
     )
 
     match True:
-        case _ if IS_HIKKAHOST:
+        case _ if IS_MAX1MHOST:
             return BASE.format(5395745114494624362)
         case _ if IS_JAMHOST:
             return BASE.format(5242536621659678947)
