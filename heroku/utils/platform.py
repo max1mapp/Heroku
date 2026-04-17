@@ -95,7 +95,7 @@ def get_named_platform_emoji() -> str:
         case _ if IS_USERLAND:
             return "🐧 "
         case _ if IS_MAX1MHOST:
-            return "🌼 "
+            return "🖤 "
         case _ if IS_DOCKER:
             return "🐳 "
         case _ if IS_LAVHOST:
