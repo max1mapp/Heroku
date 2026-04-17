@@ -57,7 +57,7 @@ def get_named_platform() -> str:
         case _ if IS_USERLAND:
             return "UserLand"
         case _ if IS_MAX1MHOST:
-            return "Max1mHost"
+            return "𝙼𝚊𝚡𝟷𝚖𝙷𝚘𝚜𝚝"
         case _ if IS_DOCKER:
             return "Docker"
         case _ if IS_LAVHOST:
